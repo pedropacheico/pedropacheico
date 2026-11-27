@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Pedro Pacheico — Backend Dev · Python · Django"/>
+<img src="header.svg" width="100%" alt="Pedro Pacheico — Backend Dev · Python · Django"/>
 
 <br/>
 
@@ -11,13 +11,13 @@
 <a href="https://www.linkedin.com/in/pedro-henrique-ferreira-a87958329"><img src="https://img.shields.io/badge/LinkedIn-0a0a0f?style=for-the-badge&logo=linkedin&logoColor=ff2a33" alt="LinkedIn"/></a>
 <!-- Para adicionar e-mail, tire o comentário da linha abaixo e troque SEU_EMAIL -->
 <!-- <a href="mailto:SEU_EMAIL"><img src="https://img.shields.io/badge/E--mail-0a0a0f?style=for-the-badge&logo=gmail&logoColor=ff2a33" alt="E-mail"/></a> -->
-<a href="https://github.com/pedropacheico?tab=repositories"><img src="https://img.shields.io/badge/Repositórios-0a0a0f?style=for-the-badge&logo=github&logoColor=ff2a33" alt="Repositórios"/></a>
+<a href="https://github.com/pedropacheico?tab=repositories"><img src="https://img.shields.io/badge/Reposit%C3%B3rios-0a0a0f?style=for-the-badge&logo=github&logoColor=ff2a33" alt="Repositórios"/></a>
 
 </div>
 
 <br/>
 
-<img src="assets/section-01.svg" width="100%" alt="01 // Sobre"/>
+<img src="section-01.svg" width="100%" alt="01 // Sobre"/>
 
 <table>
 <tr><td><b>CLASSE</b></td><td>Estudante de Análise e Desenvolvimento de Sistemas · Dev backend em formação</td></tr>
@@ -28,13 +28,13 @@
 <tr><td><b>COMBUSTÍVEL</b></td><td>Café, games e bugs que não morrem no primeiro golpe</td></tr>
 </table>
 
-<img src="assets/section-02.svg" width="100%" alt="02 // Arsenal"/>
+<img src="section-02.svg" width="100%" alt="02 // Arsenal"/>
 
 <div align="center">
 <br/>
 <img src="https://skillicons.dev/icons?i=python,django,flask,sqlite,mysql,java,js,ts,html,css,angular,git,github,vscode,aws&theme=dark&perline=15" alt="Tecnologias"/>
 <br/><br/>
-<img src="assets/banner-arsenal.svg" width="100%" alt="Cada linguagem, uma lâmina"/>
+<img src="banner-arsenal.svg" width="100%" alt="Cada linguagem, uma lâmina"/>
 </div>
 
 **◆ BACKEND**
@@ -52,9 +52,9 @@
 **◆ EM TREINAMENTO**
 <br/>`Django REST Framework` `AWS` `Java POO`
 
-<img src="assets/section-03.svg" width="100%" alt="03 // Missões"/>
+<img src="section-03.svg" width="100%" alt="03 // Missões"/>
 
-<img src="assets/banner-missoes.svg" width="100%" alt="Missões em andamento"/>
+<img src="banner-missoes.svg" width="100%" alt="Missões em andamento"/>
 
 <!-- Quando subir cada projeto, troque o nome pelo link: [SmileCash 2.0](https://github.com/pedropacheico/NOME-DO-REPO) -->
 <table>
@@ -64,9 +64,9 @@
 <tr><td>◆ <b>Projeto Gambiarra</b></td><td>Grupo de freelance com colegas de curso. Lidero o front-end e organizamos o código com branches no GitHub.</td></tr>
 </table>
 
-<img src="assets/section-04.svg" width="100%" alt="04 // Formação"/>
+<img src="section-04.svg" width="100%" alt="04 // Formação"/>
 
-<img src="assets/banner-formacao.svg" width="100%" alt="O treino nunca termina"/>
+<img src="banner-formacao.svg" width="100%" alt="O treino nunca termina"/>
 
 **◆ Análise e Desenvolvimento de Sistemas**
 <br/>FAESA · em andamento
@@ -81,24 +81,24 @@
 
 </details>
 
-<img src="assets/section-05.svg" width="100%" alt="05 // Stylish Rank"/>
+<img src="section-05.svg" width="100%" alt="05 // Stylish Rank"/>
 
 <div align="center">
-<img src="assets/stylish-rank.svg" width="100%" alt="Stylish Rank"/>
+<img src="stylish-rank.svg" width="100%" alt="Stylish Rank"/>
 <br/>
 <sub>D · C · B · A · S · SS · SSS — o rank sobe conforme as contribuições do ano. Atualizado todo dia.</sub>
 </div>
 
-<img src="assets/section-06.svg" width="100%" alt="06 // Arena"/>
+<img src="section-06.svg" width="100%" alt="06 // Arena"/>
 
 <div align="center">
 <p>Cada contribuição, um demônio a menos.</p>
 <img src="https://raw.githubusercontent.com/pedropacheico/pedropacheico/output/arena.svg" width="100%" alt="Arena de contribuições"/>
 </div>
 
-<img src="assets/section-07.svg" width="100%" alt="07 // Contato"/>
+<img src="section-07.svg" width="100%" alt="07 // Contato"/>
 
-<img src="assets/banner-contato.svg" width="100%" alt="O portal está aberto"/>
+<img src="banner-contato.svg" width="100%" alt="O portal está aberto"/>
 
 <div align="center">
 
@@ -107,8 +107,8 @@
 [LinkedIn](https://www.linkedin.com/in/pedro-henrique-ferreira-a87958329) · [Repositórios](https://github.com/pedropacheico?tab=repositories)
 
 <br/>
-<img src="assets/divider.svg" width="100%" alt=""/>
-<img src="assets/footer.svg" width="100%" alt="Continue? A missão nunca termina"/>
+<img src="divider.svg" width="100%" alt=""/>
+<img src="footer.svg" width="100%" alt="Continue? A missão nunca termina"/>
 
 </div>
 

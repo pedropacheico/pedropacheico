@@ -11,7 +11,7 @@ import urllib.request
 from svgkit import LINE, MUTED, PANEL, RED, RED_DARK, RED_HOT, ROOT, TEXT, esc, font_css
 
 USER = os.environ.get("GH_USER", "pedropacheico")
-OUT = ROOT / "assets" / "stylish-rank.svg"
+OUT = ROOT / "stylish-rank.svg"
 
 # (contribuições no último ano, letra, nome do rank)
 RANKS = [

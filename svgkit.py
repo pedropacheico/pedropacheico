@@ -3,8 +3,8 @@ import base64
 import random
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-FONTS = ROOT / "assets" / "fonts"
+ROOT = Path(__file__).resolve().parent
+FONTS = ROOT
 
 # Paleta "sangue e trevas"
 BG = "#07070a"
