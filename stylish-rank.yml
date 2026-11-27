@@ -1,0 +1,33 @@
+name: Stylish Rank
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # todo dia, 03:17 no horário de Brasília
+  workflow_dispatch:        # botão "Run workflow" na aba Actions
+  push:
+    branches: [main]
+    paths: ["scripts/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gerar card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python scripts/stylish_rank.py
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stylish-rank.svg
+          git diff --staged --quiet || git commit -m "chore: atualiza stylish rank"
+          git push

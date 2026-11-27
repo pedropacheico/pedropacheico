@@ -1,0 +1,31 @@
+name: Arena (cobra de contribuições)
+
+on:
+  schedule:
+    - cron: "43 */12 * * *"  # a cada 12 horas
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  arena:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gerar a arena
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/arena.svg?palette=github-dark&color_snake=#ff2a33&color_dots=#161b22,#4a0b0f,#7a1116,#b3141b,#ff2a33
+
+      - name: Publicar na branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: atualiza arena"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
